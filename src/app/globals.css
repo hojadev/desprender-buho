@@ -7,15 +7,7 @@
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.bg-index {
+  background-image: url("https://res.cloudinary.com/dmlrehiwh/image/upload/v1732501704/xm30x1gothdtx6jcawbm.png");
+  background-repeat: repeat;
 }
