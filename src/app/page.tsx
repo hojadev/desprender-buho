@@ -1,7 +1,7 @@
 import BotonNav from "@/components/index/botonNav";
 import Image from "next/image";
 import { gaegu } from "./fonts";
-import Link from "next/link";
+
 
 export default function Home() {
 	return (
