@@ -10,12 +10,10 @@ export default function BotonNav(){
             alt="Ir a Sobre el Proyecto"
             width={200}
             height={200}
-            placeholder="blur"
-            blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNs/Q8AAg8Bhso7688AAAAASUVORK5CYII="
-            priority={false}
+            priority={true}
             unoptimized
             ></Image>
-            <div className="flex flex-col relative top-[-20px]">
+            <div className="flex flex-col relative top-[-20px] text-[#321C14]">
                 <p className={`${gaegu.className}`}>Sobre</p>
                 <p className={`${gaegu.className}`}>Desprender</p>
             </div>
