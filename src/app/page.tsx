@@ -1,11 +1,12 @@
 "use client"
 import BotonNav from "@/components/index/botonNav";
 import Image from "next/image";
-import { gaegu } from "./fonts";
+import { gaegu, gloria } from "./fonts";
 import VinetasIndex from "@/components/index/VinetasIndex";
 import Contacto from "@/components/index/Contacto";
 import { useEffect, useState } from "react";
 import Loading from "@/components/common/Loading";
+import Cierre from "@/components/index/Cierre";
 
 
 export default function Home() {
@@ -43,27 +44,32 @@ export default function Home() {
 				priority
 				className="w-[95dvw] md:w-[50dvw] xl:w-[30dvw] my-8 md:mb-20">	
 				</Image>
-				<p className={`${gaegu.className} w-[80%] md:w-[65%] lg:w-[50%] font-bold text-2xl lg:text-3xl text-center my-4 text-[#321C14]`}>
-					Lorem ipsum odor amet, consectetuer adipiscing elit. Luctus erat fusce litora maecenas gravida consectetur. Proin ligula platea vitae, malesuada hendrerit nulla primis orci. Elementum semper venenatis placerat vivamus ex. 
-					Nullam laoreet eros ad gravida, quam netus arcu. Ligula integer magna penatibus vel, diam urna a laoreet porta. Aptent euismod risus vel odio at sem. 
-					Tempus sed torquent nunc sem duis nulla. Nibh egestas torquent nunc mus egestas ad in.
+				<p className={`${gloria.className} w-[80%] md:w-[65%] lg:w-[50%] font-light text-2xl lg:text-3xl text-center mb-12 text-[#321C14]`}>
+				¡Holaa! Sean bienvenidos a la web de <strong>DESPRENDER</strong>, un proyecto sobre el vínculo del arte callejero y su emocionalidad.<br/><br/>
+				¿Sabías que según un estudio realizado por la ACHS la ansiedad se mantiene como el principal malestar psicológico en el país?<br/><br/>
+				Tampoco es gran sorpresa por las constantes presiones tanto como laborales, escolares y sobre todo sociales, la ansiedad está más presente que nunca gracias al internet.
+				Encajar en la sociedad se ha vuelto una exigencia y crecer con un sistema tan rígido y sin descanso puede llevarte a desarrollar ansiedad e incluso algún trastorno depresivo.
 				</p>
+				
 				<VinetasIndex/>
 
 				<Image
-					src={"https://res.cloudinary.com/dmlrehiwh/image/upload/v1732501703/y0ak3je8wpeazizkvgbt.png"}
+					src={"https://res.cloudinary.com/dmlrehiwh/image/upload/v1733279457/xqcjar5psg7dywio4ywx.png"}
 					alt="Primera vineta"
 					width={500}
 					height={300}
 					priority={false}
-					className="w-[50%] md:w-[25%] rotate-90 "	
+					className=""	
             	></Image>
 
-				<p className={`${gaegu.className} w-[80%] md:w-[65%] lg:w-[50%] font-bold text-2xl lg:text-3xl text-center text-[#321C14]`}>
-					Lorem ipsum odor amet, consectetuer adipiscing elit. Luctus erat fusce litora maecenas gravida consectetur. Proin ligula platea vitae, malesuada hendrerit nulla primis orci. Elementum semper venenatis placerat vivamus ex. 
-					Nullam laoreet eros ad gravida, quam netus arcu. 
-				</p>
+				<Cierre/>
+
 				<Contacto/>
+
+				<h2 className={`${gloria.className} w-[80%] md:w-[65%] lg:w-[50%] font-regular text-3xl lg:text-5xl text-center mb-12 text-[#321C14]`}>
+                	Persiste.
+            	</h2>
+
 			</main>
 			<footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
 				<p className={`${gaegu.className} mt-16 w-[80%] md:w-[65%] lg:w-[50%] font-bold text-2xl lg:text-3xl text-center text-[#321C14]`}>
