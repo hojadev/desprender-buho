@@ -3,7 +3,6 @@ import BotonNav from "@/components/index/botonNav";
 import Image from "next/image";
 import { gaegu, gloria } from "./fonts";
 import VinetasIndex from "@/components/index/VinetasIndex";
-import Contacto from "@/components/index/Contacto";
 import { useEffect, useState } from "react";
 import Loading from "@/components/common/Loading";
 import Cierre from "@/components/index/Cierre";
