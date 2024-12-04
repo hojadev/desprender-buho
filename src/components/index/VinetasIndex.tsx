@@ -3,9 +3,6 @@ import Vineta from "./Vineta";
 
 export default function VinetasIndex(){
 
-    const placeHolderText = `Lorem ipsum odor amet, consectetuer adipiscing elit. Luctus erat fusce litora maecenas gravida consectetur. Proin ligula platea vitae, malesuada hendrerit nulla primis orci. Elementum semper venenatis placerat vivamus ex. 
-					Nullam laoreet eros ad gravida, quam netus arcu. Ligula integer magna penatibus vel, diam urna a laoreet porta. Aptent euismod risus vel odio at sem. 
-					Tempus sed torquent nunc sem duis nulla. Nibh egestas torquent nunc mus egestas ad in.`
     return (
         <section className="flex justify-center flex-col items-center bg-index gap-4">
             {/* SABES LO QUE ES LA ANSIEDAD */}

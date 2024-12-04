@@ -1,4 +1,3 @@
-import { gloria } from "@/app/fonts";
 import { VinetaProps } from "@/app/typex";
 import Image from "next/image";
 
