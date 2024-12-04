@@ -44,7 +44,7 @@ export default function Home() {
 				priority
 				className="w-[95dvw] md:w-[50dvw] xl:w-[30dvw] my-8 md:mb-20">	
 				</Image>
-				<p className={`${gloria.className} w-[80%] md:w-[65%] lg:w-[50%] font-light text-2xl lg:text-3xl text-center mb-12 text-[#321C14]`}>
+				<p className={`${gloria.className} w-[80%] md:w-[65%] lg:w-[50%] font-light text-base lg:text-xl text-center mb-12 text-[#321C14]`}>
 				¡Holaa! Sean bienvenidos a la web de <strong>DESPRENDER</strong>, un proyecto sobre el vínculo del arte callejero y su emocionalidad.<br/><br/>
 				¿Sabías que según un estudio realizado por la ACHS la ansiedad se mantiene como el principal malestar psicológico en el país?<br/><br/>
 				Tampoco es gran sorpresa por las constantes presiones tanto como laborales, escolares y sobre todo sociales, la ansiedad está más presente que nunca gracias al internet.
@@ -64,7 +64,7 @@ export default function Home() {
 
 				<Cierre/>
 
-				<Contacto/>
+				{/* <Contacto/> */}
 
 				<h2 className={`${gloria.className} w-[80%] md:w-[65%] lg:w-[50%] font-regular text-3xl lg:text-5xl text-center mb-12 text-[#321C14]`}>
                 	Persiste.
