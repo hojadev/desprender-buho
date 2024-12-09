@@ -7,7 +7,7 @@ export default function Contacto(){
         <div className={`${gaegu.className} flex justify-center flex-col flex-wrap items-center `}>
             <h3 className="text-5xl font-bold w-[50%] text-center">Contactos Emergencia</h3>
             <p className={`${gaegu.className} mt-16 w-[80%] md:w-[65%] lg:w-[50%] font-bold text-2xl lg:text-3xl text-center text-[#321C14]`}>
-					Haz "Click" en las notas para redirigirte al medio correspondiente
+					Haz <strong>Click</strong> en las notas para redirigirte al medio correspondiente
 				</p>
 
             <div className="flex flex-col lg:flex-row flex-wrap lg:w-[60%]">
