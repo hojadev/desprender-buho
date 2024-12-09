@@ -21,13 +21,13 @@ export default function VinetasIndex(){
                     inquietud, fatiga, tensión muscular, sudoración, dificultad para controlar pensamientos,
                     sentir un nudo en la garganta, aceleración del corazón, etc…<br/><br/>
                 </p>
-                <p className={`${gloria.className} w-[80%] md:w-[65%] lg:w-[50%] font-light text-base lg:text-xl text-center my-4 text-[#321C14]`}>
+                <p id="sabes" className={`${gloria.className} w-[80%] md:w-[65%] lg:w-[50%] font-light text-base lg:text-xl text-center my-4 text-[#321C14]`}>
                     Pero esencialmente se define como un malestar significativo que podría afectar tu vida diaria.
                     Acá te enseñaremos algunas técnicas personales por si tienes una crisis de pánico o ansiedad, pero primero…
                </p>
             </div>
 
-            <h2 className={`${gloria.className} w-[80%] md:w-[65%] lg:w-[50%] font-regular text-3xl lg:text-5xl text-center my-4 text-[#321C14]`}>
+            <h2  className={`${gloria.className} w-[80%] md:w-[65%] lg:w-[50%] font-regular text-3xl lg:text-5xl text-center my-4 text-[#321C14]`}>
                 ¿SABES COMO AYUDAR A ALGUIEN CON UNA CRISIS DE ANSIEDAD / PÁNICO?
             </h2>
 
@@ -54,7 +54,7 @@ export default function VinetasIndex(){
                     por lo que se recomienda cuidar el espacio personal… Quizá como máximo
                     tomate de las manos para que concentre su atención en ellas y guiarle para recuperar el control.
                 </p>
-                <p className={`${gloria.className} w-[80%] md:w-[65%] lg:w-[50%] font-light text-base lg:text-xl text-center my-4 text-[#321C14]`}>
+                <p id="respira"  className={`${gloria.className} w-[80%] md:w-[65%] lg:w-[50%] font-light text-base lg:text-xl text-center my-4 text-[#321C14]`}>
                     A pesar de haber una guía amplia de respiraciones, a veces la persona se le
                     suele olvidar estando en una crisis, pero centrar al individuo para ayudarle a
                     hacer una serie de 5 respiraciones profundas ayuda bastante.<strong> ¡Puede costar
@@ -86,11 +86,10 @@ export default function VinetasIndex(){
 
             {/* TRUCOS PARA UNA CRISIS */}
 
-            <Vineta
+            <Vineta 
 				src={"https://res.cloudinary.com/dmlrehiwh/image/upload/v1732501708/kqbs4medqhz1y1hv6tdm.png"}
 				alt="Logo del proyecto Desprender"/>
-
-            <p className={`${gloria.className} w-[80%] md:w-[65%] lg:w-[50%] font-light text-base lg:text-xl text-center my-4 text-[#321C14]`}>
+            <p id="tips" className={`${gloria.className} w-[80%] md:w-[65%] lg:w-[50%] font-light text-base lg:text-xl text-center my-4 text-[#321C14]`}>
                 Esta respiración es bastante simple: Inhalas por la nariz contando hasta 4, luego aguantas
                 la respiración contacto hasta 7 y exhalas lentamente por la boca durante 8 segundos. Se
                 recomienda colocar la boca simulando un pequeño silbido. Esta técnica ayuda a reducir el
@@ -142,16 +141,16 @@ export default function VinetasIndex(){
                 ¿TE GUSTA EL ARTE?
             </h2>
 
-            <p className={`${gloria.className} w-[80%] md:w-[65%] lg:w-[50%] font-light text-base lg:text-xl text-center my-4 text-[#321C14]`}>
+            <p  className={`${gloria.className}  w-[80%] md:w-[65%] lg:w-[50%] font-light text-base lg:text-xl text-center my-4 text-[#321C14]`}>
             El arte es significativo para muchos, funciona como expresión emocional y las obras de otras
             personas también podrían conmoverte. Hacerle sentido a alguien que conecte con lo que observas.
             </p>
-
+            <span id="playlist" ></span>
             <Vineta
 				src={"https://res.cloudinary.com/dmlrehiwh/image/upload/v1733279456/wkplvqevixgvuy0ipkve.png"}
 				alt="Logo del proyecto Desprender"/>
 
-            <p className={`${gloria.className} w-[80%] md:w-[65%] lg:w-[50%] font-light text-base lg:text-xl text-center text-[#321C14]`}>
+            <p id="playlist"  className={`${gloria.className} w-[80%] md:w-[65%] lg:w-[50%] font-light text-base lg:text-xl text-center text-[#321C14]`}>
                 La música es el mejor compañero emocional.
             </p>
 

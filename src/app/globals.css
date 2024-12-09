@@ -11,3 +11,7 @@
   background-image: url("https://res.cloudinary.com/dmlrehiwh/image/upload/v1732501704/xm30x1gothdtx6jcawbm.png");
   background-repeat: repeat;
 }
+
+.scroll-none{
+  scrollbar-width: none;
+}

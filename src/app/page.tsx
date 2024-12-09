@@ -1,11 +1,13 @@
 "use client"
-import BotonNav from "@/components/index/botonNav";
 import Image from "next/image";
 import { gaegu, gloria } from "./fonts";
 import VinetasIndex from "@/components/index/VinetasIndex";
 import { useEffect, useState } from "react";
 import Loading from "@/components/common/Loading";
 import Cierre from "@/components/index/Cierre";
+import NavBarIndex from "@/components/index/NavBarIndex";
+import Contacto from "@/components/index/Contacto";
+import Colaboradores from "@/components/index/Colaboradores";
 
 
 export default function Home() {
@@ -29,21 +31,14 @@ export default function Home() {
 	}, []);
 
 	return (
-		<div className="bg-index w-[100wvh]">
+		<div className="bg-index w-[100wvh] flex flex-col">
 			{isLoading ? <Loading/> : <>
-				<main className="flex justify-center flex-col items-center bg-index gap-4">
-				<BotonNav/>
+				<main className="flex justify-center flex-col items-center bg-index gap-4" id="index">
+
 				
 				{/*BANNER DESPRENDER*/}
-				<Image
-				src={"https://res.cloudinary.com/dmlrehiwh/image/upload/v1732849708/omyvjfxn2qz1xazni7qe.png"}
-				alt="Logo del proyecto Desprender"
-				width={500}
-				height={1000}
-				priority
-				className="w-[95dvw] md:w-[50dvw] xl:w-[30dvw] my-8 md:mb-20">	
-				</Image>
-				<p className={`${gloria.className} w-[80%] md:w-[65%] lg:w-[50%] font-light text-base lg:text-xl text-center mb-12 text-[#321C14]`}>
+				<NavBarIndex/>
+				<p id="" className={`${gloria.className} w-[80%] md:w-[65%] lg:w-[50%] font-light text-base lg:text-xl text-center mb-12 text-[#321C14]`}>
 				¡Holaa! Sean bienvenidos a la web de <strong>DESPRENDER</strong>, un proyecto sobre el vínculo del arte callejero y su emocionalidad.<br/><br/>
 				¿Sabías que según un estudio realizado por la ACHS la ansiedad se mantiene como el principal malestar psicológico en el país?<br/><br/>
 				Tampoco es gran sorpresa por las constantes presiones tanto como laborales, escolares y sobre todo sociales, la ansiedad está más presente que nunca gracias al internet.
@@ -59,15 +54,20 @@ export default function Home() {
 					height={300}
 					priority={false}
 					className=""	
+					
             	></Image>
 
 				<Cierre/>
+				<span id="sos"></span>
 
-				{/* <Contacto/> */}
+
+				<Contacto/>
 
 				<h2 className={`${gloria.className} w-[80%] md:w-[65%] lg:w-[50%] font-regular text-3xl lg:text-5xl text-center mb-12 text-[#321C14]`}>
                 	Persiste.
             	</h2>
+				<span id="colab"></span>
+				<Colaboradores/>
 
 			</main>
 			<footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
