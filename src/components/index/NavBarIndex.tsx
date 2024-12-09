@@ -13,7 +13,7 @@ export default function NavBarIndex (){
 
     return(
         <nav className="flex flex-col justify-between items-center sticky top-0 bg-index z-40 w-[100dvw]">
-            <div className="flex flex-row justify-center items-center gap-12 my-4">
+            <div className="flex flex-row justify-center items-center gap-12 md:my-4">
                 <Image
                     src={"https://res.cloudinary.com/dmlrehiwh/image/upload/v1732849708/omyvjfxn2qz1xazni7qe.png"}
                     alt="Logo del proyecto Desprender"
