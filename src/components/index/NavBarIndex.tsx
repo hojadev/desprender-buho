@@ -13,7 +13,7 @@ export default function NavBarIndex (){
 
     return(
         <nav className="flex flex-col justify-between items-center sticky top-0 bg-index z-40 w-[100dvw]">
-            <div className="flex flex-row justify-center items-center gap-12 ">
+            <div className="flex flex-row justify-center items-center gap-12 my-4">
                 <Image
                     src={"https://res.cloudinary.com/dmlrehiwh/image/upload/v1732849708/omyvjfxn2qz1xazni7qe.png"}
                     alt="Logo del proyecto Desprender"
@@ -22,20 +22,20 @@ export default function NavBarIndex (){
                     priority
                     className="w-[70%] md:w-[50dvw] xl:w-[30dvw] my-4 mx-2">	
                 </Image>
-                <button onClick={handleToggle} className="">
+                <button onClick={handleToggle} className="lg:w-[100px]">
                     <Image
                     src={"/menu.svg"}
                     alt="dropdown menu"
-                    width={40}
-                    height={40}
+                    width={50}
+                    height={50}
                     className="">
                     </Image>
                 </button>
 
             </div>
             {isToggle && 
-                <div className="bg-index w-[100%] fixed h-[100dvh]  flex flex-col items-center justify-start z-10">
-                    <button onClick={handleToggle} className="my-16">
+                <div className="bg-index w-[100%] fixed top-0 h-[100dvh]  flex flex-col items-center justify-start z-10">
+                    <button onClick={handleToggle} className="my-6">
                         <Image
                             src={"/cancel.svg"}
                             alt="dropdown menu"
@@ -56,7 +56,7 @@ export default function NavBarIndex (){
                                 loading="lazy">
                             </Image>
                             <Link 
-                            className={`${gloria.className} w-[100%] font-bold text-4xl lg:text-xl text-[#321C14]`}
+                            className={`${gloria.className} w-[100%] font-bold text-lg lg:text-4xl text-[#321C14]`}
                             href={"#inicio"} onClick={handleToggle}>Inicio</Link>
                         </li>
 
@@ -64,13 +64,13 @@ export default function NavBarIndex (){
                             <Image
                                 src={"https://res.cloudinary.com/dmlrehiwh/image/upload/v1733700193/miqcxlccpnv9ft0aufaa.png"}
                                 alt="dropdown menu"
-                                width={100}
+                                width={80}
                                 height={60}
                                 className=""
                                 loading="lazy">
                             </Image>
                             <Link 
-                            className={`${gloria.className} w-[100%] font-bold text-4xl lg:text-xl text-[#321C14]`}
+                            className={`${gloria.className} w-[100%] font-bold text-lg lg:text-4xl text-[#321C14]`}
                             href={"#sabes"} onClick={handleToggle}>Que Si/No Hacer</Link>
                         </li>
 
@@ -78,13 +78,13 @@ export default function NavBarIndex (){
                             <Image
                                 src={"https://res.cloudinary.com/dmlrehiwh/image/upload/v1733700179/h9h2vnjjsinhaollwpn9.png"}
                                 alt="dropdown menu"
-                                width={100}
+                                width={80}
                                 height={60}
                                 className=""
                                 loading="lazy">
                             </Image>
                             <Link 
-                            className={`${gloria.className} w-[80%] font-bold text-4xl lg:text-xl text-[#321C14]`}
+                            className={`${gloria.className} w-[80%] font-bold text-lg lg:text-4xl text-[#321C14]`}
                             href={"#respira"} onClick={handleToggle}>Ejercicios Respiracion</Link>
                         </li>
 
@@ -92,26 +92,26 @@ export default function NavBarIndex (){
                             <Image
                                 src={"https://res.cloudinary.com/dmlrehiwh/image/upload/v1733700179/l3vbnuq48ics3vcelnv9.png"}
                                 alt="dropdown menu"
-                                width={100}
+                                width={80}
                                 height={60}
                                 className=""
                                 loading="lazy">
                             </Image>
                             <Link 
-                            className={`${gloria.className} w-[80%] font-bold text-4xl lg:text-xl text-[#321C14]`}
+                            className={`${gloria.className} w-[80%] font-bold text-lg lg:text-4xl text-[#321C14]`}
                             href={"#tips"} onClick={handleToggle}>Tips</Link>
                         </li>
                         <li className="flex flex-row justify-center items-center gap-4 ">
                             <Image
                                 src={"https://res.cloudinary.com/dmlrehiwh/image/upload/v1733700194/qhgjhysvnsfo2vsndh5m.png"}
                                 alt="dropdown menu"
-                                width={100}
+                                width={80}
                                 height={60}
                                 className=""
                                 loading="lazy">
                             </Image>
                             <Link 
-                            className={`${gloria.className} w-[80%] font-bold text-4xl lg:text-xl text-[#321C14]`}
+                            className={`${gloria.className} w-[80%] font-bold text-lg lg:text-4xl text-[#321C14]`}
                             href={"#playlist"} onClick={handleToggle}>Playlist Spotify</Link>
                         </li>
                         <li className="flex flex-row justify-center items-center gap-4 ">
@@ -124,33 +124,33 @@ export default function NavBarIndex (){
                                 loading="lazy">
                             </Image>
                             <Link 
-                            className={`${gloria.className} w-[80%] font-bold text-4xl lg:text-xl text-[#321C14]`}
+                            className={`${gloria.className} w-[80%] font-bold text-lg lg:text-4xl text-[#321C14]`}
                             href={"#sos"} onClick={handleToggle}>Contacto SOS</Link>
                         </li>
                         <li className="flex flex-row justify-center items-center gap-4 ">
                             <Image
                                 src={"https://res.cloudinary.com/dmlrehiwh/image/upload/v1733700179/vhu0vk8s1oy3w3qymag6.png"}
                                 alt="dropdown menu"
-                                width={100}
+                                width={80}
                                 height={60}
                                 className=""
                                 loading="lazy">
                             </Image>
                             <Link 
-                            className={`${gloria.className} w-[80%] font-bold text-4xl lg:text-xl text-[#321C14]`}
+                            className={`${gloria.className} w-[80%] font-bold text-lg lg:text-4xl text-[#321C14]`}
                             href={"#colab"} onClick={handleToggle}>Colaboradores</Link>
                         </li>
                         <li className="flex flex-row justify-center items-center gap-4 ">
                             <Image
                                 src={"https://res.cloudinary.com/dmlrehiwh/image/upload/v1732501705/ngijonxwyb1jfghibnng.gif"}
                                 alt="dropdown menu"
-                                width={100}
+                                width={80}
                                 height={60}
                                 className=""
                                 loading="lazy">
                             </Image>
                             <Link 
-                            className={`${gloria.className} w-[80%] font-bold text-4xl lg:text-xl text-[#321C14]`}
+                            className={`${gloria.className} w-[80%] font-bold text-lg lg:text-4xl text-[#321C14]`}
                             href={"#tips"} onClick={handleToggle}>Sobre Desprender</Link>
                         </li>
                     </ul>
