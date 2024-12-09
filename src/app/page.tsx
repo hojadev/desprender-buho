@@ -46,16 +46,16 @@ export default function Home() {
 				</p>
 				
 				<VinetasIndex/>
-
-				<Image
-					src={"https://res.cloudinary.com/dmlrehiwh/image/upload/v1733279457/xqcjar5psg7dywio4ywx.png"}
-					alt="Primera vineta"
-					width={500}
-					height={300}
-					priority={false}
-					className=""	
-					
-            	></Image>
+				<a href="https://open.spotify.com/playlist/1eeNTVOXuHUVZeIoGVvj7A?si=86R7U66YT6-AxvM3b7N2Pg&pi=So5TrcuEQW2_n" target="_blank" rel="noopener noreferrer">
+					<Image
+						src={"https://res.cloudinary.com/dmlrehiwh/image/upload/v1733279457/xqcjar5psg7dywio4ywx.png"}
+						alt="Primera vineta"
+						width={500}
+						height={300}
+						priority={false}
+						className=""	
+					></Image>
+				</a>
 
 				<Cierre/>
 				<span id="sos"></span>
