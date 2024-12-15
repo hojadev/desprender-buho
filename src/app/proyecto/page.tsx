@@ -82,7 +82,7 @@ export default function Home() {
 							loading="lazy">	
 						</Image>
 					</Link>
-					<Link href={"búho.lunart@gmail.com"} target="_blank">
+					<Link href={"mailto:búho.lunart@gmail.com"} target="_blank">
 						<Image
 							src={"https://res.cloudinary.com/dmlrehiwh/image/upload/v1734229743/l391yh98oo7nffzx4oii.png"}
 							alt={"Correo Buho"}
