@@ -70,7 +70,7 @@ export default function NavbarProyecto(){
                             </Image>
                             <Link 
                             className={`${gloria.className} w-[100%] font-bold text-lg lg:text-4xl text-[#321C14]`}
-                            href={"#sabes"} onClick={handleToggle}>Que Si/No Hacer</Link>
+                            href={"/#sabes"} onClick={handleToggle}>Que Si/No Hacer</Link>
                         </li>
 
                         <li className="flex flex-row justify-center items-center gap-4 ">
@@ -84,7 +84,7 @@ export default function NavbarProyecto(){
                             </Image>
                             <Link 
                             className={`${gloria.className} w-[80%] font-bold text-lg lg:text-4xl text-[#321C14]`}
-                            href={"#respira"} onClick={handleToggle}>Ejercicios Respiracion</Link>
+                            href={"/#respira"} onClick={handleToggle}>Ejercicios Respiracion</Link>
                         </li>
 
                         <li className="flex flex-row justify-center items-center gap-4 ">
@@ -98,7 +98,7 @@ export default function NavbarProyecto(){
                             </Image>
                             <Link 
                             className={`${gloria.className} w-[80%] font-bold text-lg lg:text-4xl text-[#321C14]`}
-                            href={"#tips"} onClick={handleToggle}>Tips</Link>
+                            href={"/#tips"} onClick={handleToggle}>Tips</Link>
                         </li>
                         <li className="flex flex-row justify-center items-center gap-4 ">
                             <Image
@@ -111,7 +111,7 @@ export default function NavbarProyecto(){
                             </Image>
                             <Link 
                             className={`${gloria.className} w-[80%] font-bold text-lg lg:text-4xl text-[#321C14]`}
-                            href={"#playlist"} onClick={handleToggle}>Playlist Spotify</Link>
+                            href={"/#playlist"} onClick={handleToggle}>Playlist Spotify</Link>
                         </li>
                         <li className="flex flex-row justify-center items-center gap-4 ">
                             <Image
@@ -124,7 +124,7 @@ export default function NavbarProyecto(){
                             </Image>
                             <Link 
                             className={`${gloria.className} w-[80%] font-bold text-lg lg:text-4xl text-[#321C14]`}
-                            href={"#sos"} onClick={handleToggle}>Contacto SOS</Link>
+                            href={"/#sos"} onClick={handleToggle}>Contacto SOS</Link>
                         </li>
                         <li className="flex flex-row justify-center items-center gap-4 ">
                             <Image
@@ -137,7 +137,7 @@ export default function NavbarProyecto(){
                             </Image>
                             <Link 
                             className={`${gloria.className} w-[80%] font-bold text-lg lg:text-4xl text-[#321C14]`}
-                            href={"#colab"} onClick={handleToggle}>Colaboradores</Link>
+                            href={"/#colab"} onClick={handleToggle}>Colaboradores</Link>
                         </li>
                         <li className="flex flex-row justify-center items-center gap-4 ">
                             <Image
