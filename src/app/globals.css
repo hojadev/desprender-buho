@@ -12,6 +12,16 @@
   background-repeat: repeat;
 }
 
+.bg-project {
+  background-image: url("https://res.cloudinary.com/dmlrehiwh/image/upload/v1734228891/dhl1jn9rej54gmmgvubx.png");
+  background-repeat: repeat;
+}
+
 .scroll-none{
   scrollbar-width: none;
+}
+
+.text-graff {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }

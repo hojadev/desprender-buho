@@ -3,8 +3,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { gloria } from "@/app/fonts";
 
-export default function NavBarIndex (){
-
+export default function NavbarProyecto(){
     const [isToggle, setIsToggle] = useState(false)
 
     const handleToggle = () => {
@@ -12,8 +11,8 @@ export default function NavBarIndex (){
     }
 
     return(
-        <nav className="flex flex-col justify-between items-center sticky top-0 bg-index z-40 w-[100dvw]">
-            <div className="flex flex-row justify-center items-center gap-12 md:my-4">
+        <nav className="flex flex-col justify-between items-center sticky top-0 bg-project z-40 w-[100dvw]">
+            <div className="flex flex-row justify-center items-center gap-12 ">
                 <Image
                     src={"https://res.cloudinary.com/dmlrehiwh/image/upload/v1732849708/omyvjfxn2qz1xazni7qe.png"}
                     alt="Logo del proyecto Desprender"
@@ -34,7 +33,7 @@ export default function NavBarIndex (){
 
             </div>
             {isToggle && 
-                <div className="bg-index w-[100%] fixed top-0 h-[100dvh]  flex flex-col items-center justify-start z-10">
+                <div className="bg-project w-[100%] fixed top-0 h-[100dvh]  flex flex-col items-center justify-start z-10">
                     <button onClick={handleToggle} className="my-6">
                         <Image
                             src={"/cancel.svg"}
@@ -57,7 +56,7 @@ export default function NavBarIndex (){
                             </Image>
                             <Link 
                             className={`${gloria.className} w-[100%] font-bold text-lg lg:text-4xl text-[#321C14]`}
-                            href={"#inicio"} onClick={handleToggle}>Inicio</Link>
+                            href={"/#inicio"} onClick={handleToggle}>Inicio</Link>
                         </li>
 
                         <li className="flex flex-row justify-center items-center gap-4 ">
